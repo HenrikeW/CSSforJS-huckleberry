@@ -21,7 +21,6 @@ p {
 
 strong {
   color: hsl(160deg, 100%, 30%);
-  margin-bottom: -16px;
 }
 
 .intro-chunk {
@@ -49,7 +48,7 @@ main {
 .indented-heading {
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
-  padding: 16px;
+  padding: 16px 24px;
   max-width: fit-content;
 }
 
@@ -70,7 +69,7 @@ main {
   }
 
   .indented-heading {
-    margin: 0 0 0 -8px;
-    padding: 24px;
+    margin-left: -8px;
+    padding: 24px 32px;
   }
 }
